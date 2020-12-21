@@ -1,0 +1,142 @@
+body{
+	background-image: url(../image/background2.jpg) ;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+
+@font-face {
+    font-family: BravoRG; /* Гарнитура шрифта */
+    src: url(../fonts/BravoRG.otf); /* Путь к файлу со шрифтом */
+   }
+
+.otstyp{
+	margin-top: 350px; /* отступ сверху */
+}
+
+
+
+.otstyp p{
+	position: absolute;
+	left: 300px; /* координаты текста */
+  	top: 40px;  /* координаты текста */
+  	color: #FFA500;
+  	font-size: 60px;
+  	text-align: center;
+  	font-family: BravoRG;
+  	width: 700px;
+  	letter-spacing: 15px;
+}
+
+.otstyp img{
+	height: 150px;
+	position: absolute;
+	left: 100px; /* координаты текста */
+  	top: 100px;  /* координаты текста */
+}
+
+.header{
+	background: #FFFACD;
+	height: 200px;
+	margin-bottom: 0px; /* отступ снизу */
+	margin-left: 100px; /* отступ слева */
+	margin-right: 100px; /* отступ справа */
+
+}
+
+.sidebar{
+	background: #FFDAB9;
+	height: 200px;
+	margin-bottom: 0px;/* отступ снизу */
+	margin-left: 100px; /* отступ слева */
+	margin-right: 100px; /* отступ справа */
+}
+
+.content{
+	height: 800px;
+	background: #ffffff;
+	margin-bottom: 0px;/* отступ снизу */
+	margin-left: 100px; /* отступ слева */
+	margin-right: 100px; /* отступ справа */
+	margin-top: -16px;
+}
+
+.footer{
+	background: #FFFACD;
+	height: 200px;
+	margin-left: 100px; /* отступ слева */
+	margin-right: 100px; /* отступ справа */
+	margin-bottom: 150px;/* отступ снизу */
+}
+
+.menu{
+	margin: 0;
+	padding: 0;
+	list-style-type:none;
+	
+	width: 100%;
+	text-align: center;
+	background: #FFFACD;
+}
+
+.menu li{
+	display: inline;
+}
+
+.menu a{
+	color:#000;
+	padding: 15px 25px; /* отсутпы между кнопок */
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	width: 100px;
+}
+
+.menu img{
+	height: 30px ; /* размер кнопок */
+	width: 120px ;
+}
+
+
+form {
+  position: absolute;
+  width: 200px;
+  margin: 0 auto;
+  left: 290px; /* координаты поиска по сайту */
+  top: 450px;  /* координаты поиска по сайту */
+}
+input, button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+input {
+  width: 100%;
+  height: 30px;
+  background: #F9F0DA;
+  padding-left: 15px;
+}
+
+.offMagazintxt{
+	float:left;
+}
+
+.offMagazintxt p{
+	
+	position: absolute;
+	left: 290px; /* координаты текста */
+  	top: 370px;  /* координаты текста */
+  	color: #b72338;
+  	font-size: 25px;
+  	text-align: center;
+}
+
+.column {
+	margin-left: 50%;
+    column-width: 10px;
+    column-count: 2;
+    column-gap: 10px;
+    column-rule: 1px solid #ccc;
+    width: 50%;
+
+   }
